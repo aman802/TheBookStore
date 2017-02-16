@@ -1,0 +1,61 @@
+.navbar{
+  border-radius: 0px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  font-family: 'Pangolin'
+}
+
+.form-control{
+  background-color: #eeeeee;
+}
+
+.form-control:focus{
+  border-width: 2px;
+  border-color: grey;
+  background-color: white;
+}
+
+body{
+  background-color: #388e3c;
+}
+
+.image{
+  position: fixed;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  margin-left: 10px;
+  text-align: left;
+  padding: 30px;
+}
+
+.signup{
+  position: fixed;
+  top: 8%;
+  bottom: 0;
+  left: 60%;
+  width: 30%;
+  padding: 30px;
+  margin-left: 40px;
+}
+
+#tagline{
+  font-family: 'Pangolin',cursive;
+  font-size: 40px;
+  color: white;
+}
+
+p{
+  font-size: 25px;
+  font-family: 'Pangolin';
+  color: white
+}
+
+.btn{
+  border-radius: 6px;
+}
