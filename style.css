@@ -1,12 +1,17 @@
 .navbar{
   border-radius: 0px;
+  background-color: #f44336;
 }
 
 .navbar-brand{
   font-size: 30px;
-  color: white;
+  color: black;
   padding: 10px;
   font-family: 'Pangolin'
+}
+
+.navbar-brand:hover{
+  color: white;
 }
 
 .form-control{
@@ -19,8 +24,10 @@
   background-color: white;
 }
 
-body{
-  background-color: #388e3c;
+.body-index{
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image{
@@ -36,7 +43,7 @@ body{
 
 .signup{
   position: fixed;
-  top: 8%;
+  top: 10%;
   bottom: 0;
   left: 60%;
   width: 30%;
@@ -58,4 +65,47 @@ p{
 
 .btn{
   border-radius: 6px;
+}
+
+footer{
+  position: fixed;
+  height: 33px;
+  width: 100%;
+  bottom: 0;
+  text-align: right;
+}
+
+.footer-content{
+  color: white;
+  font-family: 'Pangolin';
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* CSS for profile.html */
+
+.userinfo{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.details{
+  color: white;
+  font-family: 'Pangolin';
+  border-bottom: 1px solid white;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.userdata{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  width: 75%;
 }
