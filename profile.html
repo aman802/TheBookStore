@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Username</title>
+    <title>Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -11,13 +11,13 @@
   <body>
     <div class="userinfo">
       <div class="details">
-        <h2>aman802</h2>
+        <h2><a href="profile.html">aman802</a></h2>
         <h3>xyz@example.com</h3>
       </div>
       <div class="options">
           <h3>Users(Number)</h3>
           <div class="friend-list" style="height: 300px;">
-            <p class="friend active">User1</p>
+            <p class="friend">User1</p>
             <p class="friend">User2</p>
             <p class="friend">User3</p>
             <p class="friend">User4</p>
@@ -32,129 +32,34 @@
           <input type="button" class="btn btn-primary" value="Sign Out" onclick='javascript: window.location="index.html"'/>
       </div>
     </div>
-    <div class="userdata">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              <img src="bg.jpg" width="100px" height="100px" />
-              <br />
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
+    <div class="profile">
+      <img src="person.svg" class="img-circle profile-img" width="200px" height="200px" />
+      <h1>Username: aman802</h1>
+      <h3>Name: Aman Vangani</h3>
+      <h3>Email: xyz@example.com</h3>
+      <br /><br />
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mymodal">Change Details</button>
+    </div>
+
+    <div id="mymodal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
         </div>
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Book Title</h3>
-            </div>
-            <div class="panel-body">
-              Description of the book
-            </div>
-            <div class="panel-footer">Ther user liked/disliked the book</div>
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
   </body>
 </html>

@@ -82,7 +82,7 @@ footer{
   margin-right: 5px;
 }
 
-/* CSS for profile.html */
+/* user.html */
 
 .userinfo{
   position: fixed;
@@ -140,4 +140,35 @@ footer{
   padding: 5px;
   text-align: center;
   overflow: auto;
+  overflow-x: hidden;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+/* profile.html */
+
+.profile{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.profile-img{
+  background-color: #f44336;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px #888888;
 }
