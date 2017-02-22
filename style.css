@@ -110,7 +110,8 @@ footer{
 
 .friend-list{
   border-bottom: 3px solid #f44336;
-  overflow: auto;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .friend:hover{
@@ -136,7 +137,7 @@ footer{
   left: 25%;
   width: 75%;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 5px;
   text-align: center;
   overflow: auto;
@@ -149,7 +150,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: grey;
+  color: #bdbdbd;
 }
 
 /* profile.html */
@@ -171,4 +172,12 @@ a:hover{
   background-color: #f44336;
   border: 2px solid black;
   box-shadow: 10px 10px 5px #888888;
+}
+
+.panel:hover{
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.like{
+  color: green;
 }
